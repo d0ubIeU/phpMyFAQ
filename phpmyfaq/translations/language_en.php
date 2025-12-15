@@ -646,7 +646,6 @@ $PMF_LANG['ad_export_type_choose'] = 'Supported formats:';
 $PMF_LANG['ad_export_download_view'] = 'Download or view inline?';
 $PMF_LANG['ad_export_download'] = 'download';
 $PMF_LANG['ad_export_view'] = 'view in-line';
-$PMF_LANG['ad_export_gen_xhtml'] = 'Create XHTML file';
 
 // added v2.0.0 - 2006-07-22 by Matteo
 $PMF_LANG['ad_news_data'] = 'FAQ News';
@@ -1531,5 +1530,7 @@ $PMF_LANG['ad_quick_sub_category'] = "Add new sub-category";
 $PMF_LANG['msgError403'] = 'Error 403';
 $PMF_LANG['msgError403Description'] = 'You are authenticated, but you do not have permission to access this resource.';
 $PMF_LANG['msgError403Hint'] = 'If you believe this is an error, please contact an administrator.';
+$PMF_LANG['msgCreateDate'] = 'Created on';
+$PMF_LANG['msgUpdateDate'] = 'Last updated on';
 
 return $PMF_LANG;

@@ -612,7 +612,6 @@ $PMF_LANG['ad_export_type_choose'] = 'Obsługiwane formaty:';
 $PMF_LANG['ad_export_download_view'] = 'Pobrać lub wyświetlić bezpośrednio?';
 $PMF_LANG['ad_export_download'] = 'pobierz';
 $PMF_LANG['ad_export_view'] = 'zobacz on-line';
-$PMF_LANG['ad_export_gen_xhtml'] = 'Utwórz plik XHTML';
 
 // added v2.0.0 - 2006-07-22 by Matteo
 $PMF_LANG['ad_news_data'] = 'Aktualności FAQ';
@@ -949,7 +948,7 @@ $PMF_LANG['ad_entry_changelog_history'] = "Historia zmian";
 // added v2.7.0-beta2 - 2011-06-22 by Thorsten
 $LANG_CONF['security.ssoSupport'] = ['checkbox', 'Włącz obsługę pojedynczego logowania'];
 $LANG_CONF['security.ssoLogoutRedirect'] = ['input', 'Usługa przekierowywania wylogowania przy pojedynczym logowaniu URL'];
-$LANG_CONF['main.dateFormat'] = ['input', 'Format daty (domyślny: d-m-Y H:i)'];
+$LANG_CONF['main.dateFormat'] = ['input', 'Format daty (domyślnie: d-m-Y H:i)'];
 $LANG_CONF['security.enableLoginOnly'] = ['checkbox', 'Kompletne zabezpieczone FAQ'];
 
 // added v2.7.0-RC - 2011-08-18 by Thorsten
@@ -1304,7 +1303,7 @@ $PMF_LANG['permission::editconfig'] = 'Edytuj konfigurację';
 $PMF_LANG['permission::addatt'] = 'Dodaj załączniki';
 $PMF_LANG['permission::delatt'] = 'Usuń załączniki';
 $PMF_LANG['permission::backup'] = 'Utwórz kopie zapasowe';
-$PMF_LANG['permission::restore'] = 'Przywróć kopie zapasowe';
+$PMF_LANG['permission::restore'] = 'Przywróć kopie zapasłe';
 $PMF_LANG['permission::delquestion'] = 'Usuń otwarte pytania';
 $PMF_LANG['permission::changebtrevs'] = 'Edytuj rewizje';
 $PMF_LANG['permission::addglossary'] = 'Dodaj element słownika';
@@ -1455,7 +1454,7 @@ $LANG_CONF['security.enableAdminSessionTimeoutCounter'] = ['checkbox', 'Aktywuj 
 $LANG_CONF['search.enableOpenSearch'] = ['checkbox', 'Włącz wsparcie OpenSearch', 'Standard: wyłączone'];
 $LANG_CONF['search.popularSearchTimeWindow'] = ['input', 'Okno czasowe dla popularnych wyszukiwań (dni)', 'Standard: 180 dni'];
 $PMF_LANG['msgAdminHeaderOpenSearch'] = 'Konfiguracja OpenSearch';
-$PMF_LANG['msgAdminOpenSearchCreateIndex'] = 'Utwórz indeks wyszukiwania';
+$PMF_LANG['msgAdminOpenSearchCreateIndex'] = 'Utwórz Indeks wyszukiwania';
 $PMF_LANG['msgAdminOpenSearchDropIndex'] = 'Usuń indeks wyszukiwania';
 $PMF_LANG['msgAdminOpenSearchImportIndex'] = 'Pełny import';
 $PMF_LANG['msgAdminOpenSearchCreateIndex_success'] = 'Indeks wyszukiwania OpenSearch został pomyślnie utworzony.';
@@ -1510,5 +1509,10 @@ $LANG_CONF['mail.noReplySenderAddress'] = ['input', 'Adres do odpowiedzi dla e-m
 $LANG_CONF['records.allowedMediaHosts'] = ['area', 'Dozwolone zewnętrzne hosty dla treści multimedialnych (oddziel przecinkami)'];
 $LANG_CONF['layout.customCss'] = ['area', 'Niestandardowy CSS', 'Proszę używać tylko CSS.'];
 $PMF_LANG['ad_quick_sub_category'] = "Dodaj nową podkategorię";
+$PMF_LANG['msgError403'] = 'Błąd 403';
+$PMF_LANG['msgError403Description'] = 'Jesteś uwierzytelniony, ale nie masz uprawnień do dostępu do tego zasobu.';
+$PMF_LANG['msgError403Hint'] = 'Jeśli uważasz, że to błąd, skontaktuj się z administratorem.';
+$PMF_LANG['msgCreateDate'] = 'Utworzono dnia';
+$PMF_LANG['msgUpdateDate'] = 'Ostatnia aktualizacja dnia';
 
 return $PMF_LANG;

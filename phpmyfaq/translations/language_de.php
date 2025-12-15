@@ -646,7 +646,6 @@ $PMF_LANG['ad_export_type_choose'] = "Bitte wählen Sie eines der unterstützten
 $PMF_LANG['ad_export_download_view'] = "Herunterladen oder Inline ansehen?";
 $PMF_LANG['ad_export_download'] = "Herunterladen";
 $PMF_LANG['ad_export_view'] = "Inline ansehen";
-$PMF_LANG['ad_export_gen_xhtml'] = "Als XHTML-Datei exportieren";
 
 // added v2.0.0 - 2006-07-22 by Matteo
 $PMF_LANG['ad_news_data'] = "Nachricht";
@@ -1529,5 +1528,7 @@ $PMF_LANG['ad_quick_sub_category'] = "Neue Sub-Kategorie hinzufügen";
 $PMF_LANG['msgError403'] = 'Fehler 403';
 $PMF_LANG['msgError403Description'] = 'Du hast keine Berechtigung, auf diese Seite zuzugreifen.';
 $PMF_LANG['msgError403Hint'] = 'Wenn du denkst, dass dies ein Fehler ist, kontaktiere bitte den Administrator.';
+$PMF_LANG['msgCreateDate'] = 'Erstellt am';
+$PMF_LANG['msgUpdateDate'] = 'Aktualisiert am';
 
 return $PMF_LANG;

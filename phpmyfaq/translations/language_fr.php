@@ -648,7 +648,6 @@ $PMF_LANG["ad_export_type_choose"] = "Formats supportés : ";
 $PMF_LANG["ad_export_download_view"] = "Télécharger ou visualiser en ligne ?";
 $PMF_LANG["ad_export_download"] = "Télécharger";
 $PMF_LANG["ad_export_view"] = "Visualiser en ligne";
-$PMF_LANG["ad_export_gen_xhtml"] = "Créer un fichier XHTML";
 
 // added v2.0.0 - 2006-07-22 by Matteo
 $PMF_LANG["ad_news_data"] = "Contenu de l'actualité";
@@ -1530,5 +1529,10 @@ $PMF_LANG['msgTotalKeys'] = 'Nombre total de clés de traduction';
 $PMF_LANG['msgTranslatedKeys'] = 'Nombre de clés traduites';
 $PMF_LANG['noteNightlyBuild'] = 'Veuillez noter que la version de la veille sera téléchargée (enregistrée dans /content/upgrades). Chaque nouvelle version n\'est créée par GitHub qu\'à partir de 2h00 (UTC).';
 $PMF_LANG['permission::translate_faq'] = 'Traduire les FAQs';
+$PMF_LANG['msgError403'] = 'Erreur 403';
+$PMF_LANG['msgError403Description'] = 'Vous êtes authentifié, mais vous n\'avez pas la permission d\'accéder à cette ressource.';
+$PMF_LANG['msgError403Hint'] = 'Si vous pensez qu\'il s\'agit d\'une erreur, veuillez contacter un administrateur.';
+$PMF_LANG['msgCreateDate'] = 'Créé le';
+$PMF_LANG['msgUpdateDate'] = 'Dernière mise à jour le';
 
 return $PMF_LANG;
